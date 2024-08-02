@@ -54,10 +54,10 @@ export default function Todoren({todo,added}) {
             });
             };
 return (
-    <div className='w-full flex flex-col justify-center items-center'>
+    <div className='w-full flex flex-col justify-center items-center pt-4'>
         {todo?.map((t) => {
         return (
-        <div className=' w-2/3 h-48 my-2 rounded text-white bg-stone-800 flex hover:shadow-2xl '>
+        <div className=' w-2/3 h-48 my-2 rounded bg-gray-200 flex hover:shadow-2xl '>
 
             <div className='w-2/3 flex flex-col '>
                 <div className=' pt-5 pl-9 flex '>
